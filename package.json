@@ -8,8 +8,8 @@
     "start": "next start",
     "test": "jest",
     "test:coverage": "jest --coverage -u --silent",
-    "test-all": "yarn lint && yarn type-check && yarn test:coverage",
-    "build": "yarn test-all && next build",
+    "test-all": "yarn type-check && yarn test:coverage",
+    "build": "next build",
     "build:now": "next build"
   },
   "husky": {
