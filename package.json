@@ -6,9 +6,6 @@
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "type-check": "tsc --pretty --noEmit",
-    "format": "prettier --write **/*.{js,ts,tsx}",
-    "lint": "eslint . --ext ts --ext tsx --ext js",
     "test": "jest",
     "test:coverage": "jest --coverage -u --silent",
     "test-all": "yarn lint && yarn type-check && yarn test:coverage",
