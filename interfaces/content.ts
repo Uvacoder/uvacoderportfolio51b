@@ -1,4 +1,4 @@
-import { ResponsiveImageType, SeoMetaTagType } from 'react-datocms'
+import { ResponsiveImageType, SeoMetaTag } from 'react-datocms'
 
 export type Article = {
   date: Date | string
@@ -12,7 +12,7 @@ export type Article = {
     title: string
     responsiveImage: ResponsiveImageType
   }
-  seo?: SeoMetaTagType[]
+  seo?: SeoMetaTag[]
   title: string
 }
 
@@ -30,7 +30,7 @@ export type Project = {
   date: Date | string
   slug: string
   link: string
-  seo?: SeoMetaTagType[]
+  seo?: SeoMetaTag[]
 }
 
 export interface ArticleProps {
