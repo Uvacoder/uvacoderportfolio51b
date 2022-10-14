@@ -2,7 +2,7 @@ import { fetchAPI } from '@/lib/datocms'
 import Head from '@/components/header'
 import processMarkdown from '@/lib/processMarkdown'
 import Container from '@/components/container'
-import NextHead from 'next/head'
+
 
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
