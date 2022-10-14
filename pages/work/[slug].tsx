@@ -30,9 +30,7 @@ export default function CaseStudy({ data, preview }: Props) {
   return (
     <div>
       <Head title={data?.project?.title} />
-      <NextHead>
-        {data?.project ? renderMetaTags(data?.project?) : null}
-      </NextHead>
+      
       {preview ? <PreviewBanner /> : null}
       <Container>
         <div className="w-full md:w-2/3 mx-auto">
