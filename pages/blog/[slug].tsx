@@ -9,7 +9,7 @@ import dayjs from 'dayjs'
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import RecentArticles from '@/components/recent-articles'
-import { renderMetaTags } from 'react-datocms'
+
 import ReactMarkdown from 'react-markdown'
 import Code from '@/components/Code'
 import PreviewBanner from '@/components/PreviewBanner'
