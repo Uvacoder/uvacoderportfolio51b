@@ -29,7 +29,7 @@ export default function Article({
     <div>
       <Head title={data?.article?.title} />
       <NextHead>
-        {data?.article ? renderMetaTags(data?.article?.seo) : null}
+        {data?.article ? renderMetaTags(data?.article?) : null}
       </NextHead>
       {preview ? <PreviewBanner /> : null}
       <Container>
