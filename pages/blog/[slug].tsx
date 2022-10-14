@@ -3,7 +3,7 @@ import { ARTICLE_QUERY, ALL_ARTICLES_QUERY } from '../../graphql/queries/posts'
 import Head from '@/components/header'
 import Container from '@/components/container'
 import { ArticleProps } from '@/interfaces/content'
-import NextHead from 'next/head'
+
 
 import dayjs from 'dayjs'
 import { useRouter } from 'next/router'
@@ -28,9 +28,7 @@ export default function Article({
   return (
     <div>
       <Head title={data?.article?.title} />
-      <NextHead>
-        {data?.article ? renderMetaTags(data?.article?) : null}
-      </NextHead>
+      
       {preview ? <PreviewBanner /> : null}
       <Container>
         <div className="w-full md:w-3/4 mx-auto">
