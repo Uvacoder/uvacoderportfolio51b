@@ -6,7 +6,7 @@ import Container from '@/components/container'
 
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
-import { renderMetaTags } from 'react-datocms'
+
 import { CASE_STUDY, RECENT_WORK } from 'graphql/queries/work'
 import Link from 'next/link'
 import RecentProjects from '@/components/recent-articles'
